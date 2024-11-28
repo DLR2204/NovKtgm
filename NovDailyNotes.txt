@@ -78,10 +78,12 @@ instance :-  datatype  variablename = value ;
 memoryAllocation:-
 =================
 
-static:- Static prop's will gets the memory space only once at the time of class loading into the jvm
+static:- Static prop's will gets the memory space only once at the time of class loading into
+				the jvm
 
-instance :- Instance prop's will gets the memorty space for every object creation.
-
+instance :- Instance prop's will gets the memory space for every object creation.
+				
+				syntax:- ClassName objname = new ClassName();
 
 Access:-
 ======
@@ -100,6 +102,15 @@ instance :- Heap Area
 Usage:-
 =====
 
-static :- common data
+static :- common data   ------>nationality --Indain
 
-instance :- unique data
+instance :- unique data ------>aadhar      --unique id
+
+
+
+operators:-ULTRA AB
+==========
+
+
+		a   +   b-->operand
+		
