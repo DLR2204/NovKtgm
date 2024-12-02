@@ -114,3 +114,31 @@ operators:-ULTRA AB
 
 		a   +   b-->operand
 		
+		
+		methods:- The set of statments where altogether performs the similar task.
+		
+		syntax:- 
+		
+					accessModifer returnType methodName(prams...){
+					
+					//body
+					}
+
+		2 types:- based on the syntax diff
+		
+		
+		(1)Static Method
+		
+		syntax:-
+						accessModifer static returnType methodName(prams...){
+					
+							//body
+							}
+		
+		(2)Dynmanic Method
+		syntax:- 
+		
+					accessModifer returnType methodName(prams...){
+					
+					//body
+					}
