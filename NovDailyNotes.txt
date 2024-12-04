@@ -156,6 +156,7 @@ operators:-ULTRA AB
 					
 		Inheritance :-  Acquiring parent class features to the child class.
 		===========
+								*Code Reusability
 		
 				
 				extends 						implements
@@ -221,3 +222,47 @@ operators:-ULTRA AB
 	interface :- It is the only collection of abstract methods
 	
 	abstract class :-It is the combination of both abstract + concrete methods.
+	
+	
+	Abstraction:- To hide the logic of the classes.
+	===========
+						*SECURITY
+						
+						
+	interfaces           --------->100
+	
+	
+	abstractClasses		---------->0-100%
+	
+	
+	classes				--------->0%
+	
+	
+	Polymorphism:-    * Code Reusability
+	============
+	
+	
+	(1)MethodOverloading:-Methods name is same but parameters are diff.
+									(a)type of parameters
+									(b)No:-of parameters
+									(c)Order of parameters
+	
+	(2)MethodOverriding:-Methods name is same but method body is diff.
+	
+	
+	class Parent{
+	100Cr.()
+	marriage(){kajol}
+	1000 methods
+	}
+
+	class Child extends Parent{
+	
+	@Override
+	marriage(){deepika}
+	
+	}
+	
+	
+	Encapsulation:-It will wraps the entire data into a single unit/class/entity.
+	==============
