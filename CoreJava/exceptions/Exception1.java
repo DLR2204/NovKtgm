@@ -4,9 +4,10 @@ import java.util.Scanner;
 
 public class Exception1 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ClassNotFoundException {
 		
 		Scanner scan = new Scanner(System.in);
+		
 		
 		System.out.print("Please enter the numerator:-");
 		
@@ -22,10 +23,14 @@ public class Exception1 {
 		
 		System.out.println("The division result is:- "+result);}
 		
-		catch(Exception e) {
+		catch(NullPointerException e) {
 			System.out.println(e);
 			
 			System.out.println("Please don't enter zero as the denominator");
+		}
+		
+		finally {
+			System.out.println("Iam from finally block");
 		}
 		
 		
