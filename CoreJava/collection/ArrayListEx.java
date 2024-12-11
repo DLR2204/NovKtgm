@@ -8,28 +8,44 @@ import java.util.ArrayList;
 //
 //(3)Lots of utility methods.
 
+//List :-
+//
+//(4)Duplicates are allowed 
+//
+//(5)insertion order is preserved
+
 public class ArrayListEx {
-	
+
 	public static void main(String[] args) {
-		
+
 		ArrayList al = new ArrayList();
-		
+
 		al.add("Akhila");
-		
+
 		al.add(1);
-		
+
 		al.add(true);
-		
+
 		al.add(3.14f);
-		
+
 		al.add('a');
 		
+		al.add("Akhila");
+
+		al.add(1);
+
+		al.add(true);
+
+		al.add(3.14f);
+
+		al.add('a');
+
 		System.out.println(al);
-		
+
 		al.add("SteveJobs");
-		
-		System.out.println(al);
-		
+
+		System.out.println(al.get(0));
+
 	}
 
 }
