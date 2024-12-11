@@ -49,11 +49,16 @@ p.l:- developing of application
 	
 	shortcuts:-
 	----------	
-	main :-  ctrl+space
+	type-main :-  ctrl+space
 	
-	syso :- ctrl+space
+	type-syso :- ctrl+space
 	
 	format :- ctrl+shift+f
+	
+	imports :- ctrl+shift+o
+	
+	default const :- ctrl+space
+	
 	
 	
 	variable :-
@@ -266,3 +271,75 @@ operators:-ULTRA AB
 	
 	Encapsulation:-It will wraps the entire data into a single unit/class/entity.
 	==============
+	
+	
+	Constructor:-It will intializes the object.
+	-----------
+						(1)default constructor
+						
+				syntax:- 
+				
+						accessModifer ClassName(){
+						//body
+						}
+						
+						(2)parametrized constructor
+						
+				syntax:-	
+						accessModifer ClassName(prameters){
+						
+						//body
+						}
+						
+						
+	*The parent class for every java class file is "java.lang.Object"
+	
+	*The default package for every java file is "java.lang"
+	
+	
+	Exception Handling:- 
+	------------------
+	
+	(1)To throw user friendly error messages
+	
+	(2)To terminate our program in a normal way.
+	
+	
+	Arrays :- 
+	======
+	Array creation in 3 methods :- 
+	
+	(1)int array[] =  {1,2,3,4,5,6,7,8,9,0};
+	
+	(2)int array[] = new int[10];
+	
+	(3)int array[] = new int[]{1,2,3,4,5,6,7,8,9,0,1};
+	
+	
+	limitations :- 
+	-------------
+	
+		(1)It is fixed in size and can't be altered.
+		
+		(2)It will accept homogeneous elements only.
+		
+		(3)No utility methods.
+		
+		
+	Collection Framework:- 
+	--------------------
+	
+	
+	(1)It is not fixed in size it is growable
+	
+	(2)It will both homogeneous and heterogeneous elements
+	
+	(3)Lots of utility methods.
+	
+	Comparable :- obj1.compare(obj12) --->cso
+
+
+Comparator :- compareTo(obj1,obj2) --->nso
+
+
+apple  banana   ----> a-b ==97-98 = -(-ve)
