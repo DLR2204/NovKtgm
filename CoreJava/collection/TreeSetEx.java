@@ -17,7 +17,7 @@ public class TreeSetEx {
 
 	public static void main(String[] args) {
 
-		TreeSet ts = new TreeSet(new MyOrder());
+		TreeSet<String> ts = new TreeSet<String>(new MyOrder());
 
 		ts.add("orange");
 
@@ -34,6 +34,11 @@ public class TreeSetEx {
 		ts.add("pisatcho");
 
 		System.out.println(ts);
+		
+		
+		for(String names : ts) {
+			System.out.println(names);
+		}
 
 	}
 }

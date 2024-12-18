@@ -1,6 +1,7 @@
 package collection;
 
 import java.util.HashSet;
+import java.util.Iterator;
 
 //(1)It is not fixed in size it is growable
 //
@@ -30,17 +31,15 @@ public class HashSetEx {
 
 		hs.add('c');
 
-		hs.add(2323);
-
-		hs.add("Akhila");
-
-		hs.add(3.14f);
-
-		hs.add(true);
-
-		hs.add('c');
-
+		
 		System.out.println(hs);
+		
+		Iterator itr = hs.iterator();
+		
+		while(itr.hasNext()) {
+			
+			System.out.println(itr.next());
+		}
 
 	}
 

@@ -1,27 +1,37 @@
 package exceptions;
 
-import java.util.Scanner;
+class AgeNotValidException extends Exception{
+	
+	private int age;
+	
+	public AgeNotValidException(int age) {
+		this.age = age;
+	}
+	
+}
 
 public class Exception5 {
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter first number division :");
-		int a = scanner.nextInt();
-		System.out.println("Enter second number division :");
-		int b = scanner.nextInt();
-		try {
-			System.out.println("division two numbers : " + (a / b));
-		} catch (Exception e) {
-//			System.out.println("dont enter zero as denominator");
-//			System.out.println(e);//exception name;error type
-//			e.printStackTrace();//to know error line number
-			System.out.println(e.getMessage());
+	
+	public static void valid(int age) throws AgeNotValidException {
+		
+		if(age<18) {
+			throw new AgeNotValidException(age);
 		}
-
-		System.out.println("remaining  100 lines code ");
-
-		scanner.close();
-
+		
+		else {
+			System.out.println("You are eligible to vote");
+		}
+		
 	}
-
+	
+	
+	public static void main(String[] args) {
+		
+		try {
+			valid(12);
+		} catch (AgeNotValidException e) {
+			System.out.println("Age must be greater than 18");
+			e.printStackTrace();
+		}
+	}
 }
