@@ -343,3 +343,81 @@ Comparator :- compareTo(obj1,obj2) --->nso
 
 
 apple  banana   ----> a-b ==97-98 = -(-ve)
+
+
+
+		java8 :- 
+		-----
+		Marker Interface :- 0 abstract methods 
+		
+		Functional Interface  :- single abstract method(sam)
+		
+		
+		FileHandling:- io
+		------------
+		
+		To create  a file    :- File
+		
+		To wirte into a file :- FileWriter
+								BufferedWriter
+								PrintWriter
+		
+		To read from a file  :- FileReader
+							    BufferedReader
+								
+								
+		junit:- java unit testing.
+		
+		
+		
+		String :- 
+		--------
+		
+		
+		String 				StringBuffer				StringBuilder
+		
+		immutable 			mutable						mutable
+		
+							Synchronised				NotSync
+							
+					
+		MutiThreading:- Running more than one thread at time
+		
+		
+										Database:-
+										==========
+										
+		apple 			467
+        roses           565
+		papers			567 
+        oranges         456	 		
+		drafts			234
+	
+	
+		Data :- Raw info 
+
+		Database :- To store the data for the future access  securely and permenantly.
+		
+		
+		Table :- row(records) + columns(fields)
+		
+		
+		Query :- It is a command to perfrom any operation in the db.
+		
+		DDL(Data definition lang) :- create,alter,drop,truncate,rename  [auto -commited]
+		
+		DML(Data Manipulation lang) :- insert,update,delete [not auto-comitted]
+		
+		DRL(Data Retrival lang) :- select
+		
+		DCL(Data Control lang) :- grant,revoke
+		
+		TCL(Transaction Control lang) :- commit,rollback
+		
+		
+		
+		drop  :- deltes the entire table with records
+		
+		truncate :- it will earaises all the records in the table
+		
+		delete :-deletes the data in the table based on  a condition.
