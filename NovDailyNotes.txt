@@ -421,3 +421,63 @@ apple  banana   ----> a-b ==97-98 = -(-ve)
 		truncate :- it will earaises all the records in the table
 		
 		delete :-deletes the data in the table based on  a condition.
+		
+		
+		jdbc,jpa,spring core,spring boot,spring rest,spring security.
+		
+			jdbc:-(java database connectivity)
+									-----
+	
+	(1)Loading the driver classes
+	
+	(2)Create the connection
+	
+	(3)create the statements
+	
+	(4)excute the statements
+	
+	(5)close the connections
+	
+	
+	limitations :- 
+	
+	(1)Queries
+	
+	(2)Exception handling
+	
+	(3)same db prop's , logic
+	
+	(4)boiler plate code(repeated code)
+	
+	
+	jpa(java persistence api)   :- specification
+	=========================
+	
+	(1)No Queries
+	
+	(2)No table creation
+	
+	(3)No exception Handling
+	
+	(4)diff files for db prop's ,logic
+	
+	(5)No boiler plate code
+	
+	
+	Implementations  : -  ORM Tools
+	---------------
+	
+				hibernate , top link , ecllipse link ,ibatis...
+				
+		
+		
+		class ----------- >   table
+		
+
+		variables -------->   columns
+				
+				
+				
+		EntityManager ---------->query equivalent methods
+		
+		dp prop's ----->xml file , logic --->.java
