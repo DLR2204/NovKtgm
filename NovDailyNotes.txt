@@ -425,7 +425,7 @@ apple  banana   ----> a-b ==97-98 = -(-ve)
 		
 		jdbc,jpa,spring core,spring boot,spring rest,spring security.
 		
-			jdbc:-(java database connectivity)
+									jdbc:-(java database connectivity)
 									-----
 	
 	(1)Loading the driver classes
@@ -475,9 +475,104 @@ apple  banana   ----> a-b ==97-98 = -(-ve)
 		
 
 		variables -------->   columns
+		
+		
+		obj --------------->row
 				
 				
 				
 		EntityManager ---------->query equivalent methods
 		
 		dp prop's ----->xml file , logic --->.java
+		
+		
+		
+		insert ------->persist();
+		
+		update ------->merge();
+		
+		select  ------>find();
+		
+		delete -------->remove();
+		
+		
+		
+		Maven:-It is a build tool .
+		
+		
+										Spring:-
+										======
+		
+		Spring :- It is non-invasive framework which is used to create light-weighted and 
+					loosley coupled web applications.
+		
+		
+				
+				invasive :- it will forces the programmer to use the inbuilt api
+				
+				non-invasive :- it will not forces the programmer to use inbuilt api
+				
+				
+				heavy-weighted :- 
+				
+				class A{
+				1000 methods
+				}
+				class B extends A{
+				
+				10 methods
+				}
+				class C extends B{
+				
+				1 method
+				}
+				
+				
+				tightly coupled :- If the dependecies are very high.
+				
+				loosley coupled :- If the dependecies are very low.
+				
+				
+				
+		SpringCore ,SpringBoot,SpringRest,SpringSecurity,SpringCloud,SpringDatajpa,SpringWeb.....
+		
+		
+				SpringCore :- To avoid the dependecies between classes to make loosley coupled web app.
+				==========
+				
+					Containers :- They will creates the objects 
+					---------	
+								(1)Bean Factory
+								(2)ApplicationContext
+								
+								
+					DependencyInjection:- Injecting the data into the object
+					--------------------
+					
+								(1)SetterInjection   <property></property>
+								
+								(2)ConstructorInjection  <constructor-arg></constructor-arg>
+								
+								(3)autowiring 
+								
+					Configurations:- 
+					--------------
+								(1)XML configuration
+								
+								(2)AnnotationConfiguration
+								
+								
+								
+					SpringBoot:-
+					==========
+								
+						(1)AutoConfiguration
+						
+						(2)Embedded Server (tomcat:8080)
+
+						(3)Starters :- set of jar
+						
+						(4)Actuators :- status of app through end point url's.
+					
+					
+					
